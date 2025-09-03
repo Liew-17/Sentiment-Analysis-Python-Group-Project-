@@ -33,4 +33,4 @@ The repository is organized into three main folders:
 The dataset used for this project was sourced from **Kaggle**.  
 It consists of tweets containing the hashtag **#CovidVaccine**.  
 
-📌 [Kaggle Dataset Link](https://www.kaggle.com) *(replace with the exact link)* 
+https://www.kaggle.com/datasets/kaushiksuresh147/covidvaccine-tweets 
