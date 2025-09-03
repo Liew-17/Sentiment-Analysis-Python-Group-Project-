@@ -1,5 +1,5 @@
-# Sentiment-Analysis-Python-Group-Project-
-# Sentiment Analysis on Twitter Posts (#CovidVaccine)
+# Sentiment Analysis Python Group Project
+
 
 ## 1. Overview  
 This project performs **sentiment analysis** on Twitter posts containing the hashtag **#CovidVaccine**.  
