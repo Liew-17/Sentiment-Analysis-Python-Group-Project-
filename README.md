@@ -21,9 +21,9 @@ The repository is organized into three main folders:
     Provides functions for visualizing data, including **pie charts** (sentiment distribution, scale 1–5) and **line charts** (sentiment trends over time).  
   - `main.py` – **Main Script**  
     Runs the complete workflow:  
-    1. Load and preprocess the CSV data.  
-    2. Perform sentiment analysis on text and save the processed data to a CSV file.  
-    3. Generate visualizations (pie chart and sentiment trend). 
+      1. Load and preprocess the CSV data.  
+      2. Perform sentiment analysis on text and save the processed data to a CSV file.  
+      3. Generate visualizations (pie chart and sentiment trend). 
 
 - **`notebook/`**  
   Includes `python_project.ipynb`, a Jupyter Notebook that combines both code and explanatory markdown.  
