@@ -27,8 +27,6 @@ The repository is organized into three main folders:
     - **Pie chart** showing the distribution of sentiment categories (rated on a scale from 1 to 5, where 1 = very negative and 5 = very positive).
     - **Line chart** illustrating sentiment trends over time.  
 
----
-
 ## 3. Dataset  
 The dataset used for this project was sourced from **Kaggle**.  
 It consists of tweets containing the hashtag **#CovidVaccine**.  
