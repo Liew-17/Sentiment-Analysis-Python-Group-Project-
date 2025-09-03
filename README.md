@@ -12,8 +12,18 @@ The project also generates visualizations to highlight sentiment distribution an
 The repository is organized into three main folders:  
 
 - **`src/`**  
-  Contains all Python `.py` modular files.  
-  These modules can be imported to access reusable functions or to run the complete sentiment analysis pipeline.  
+  Contains all Python `.py` modular files. These modules can be imported individually or used together to run the full workflow:  
+  - `data_processing.py` – **Data Processing Module**  
+    Handles preprocessing tasks: loading CSVs, cleaning text, parsing dates, handling missing values, filtering columns, and saving processed data.  
+  - `sentiment_analyzer.py` – **Sentiment Analysis Module**  
+    Performs sentiment analysis on text data in a DataFrame using a pre-trained multilingual **BERT** model.  
+  - `visualizer.py` – **Data Visualization Module**  
+    Provides functions for visualizing data, including **pie charts** (sentiment distribution, scale 1–5) and **line charts** (sentiment trends over time).  
+  - `main.py` – **Main Script**  
+    Runs the complete workflow:  
+    1. Load and preprocess the CSV data.  
+    2. Perform sentiment analysis on text and save the processed data to a CSV file.  
+    3. Generate visualizations (pie chart and sentiment trend). 
 
 - **`notebook/`**  
   Includes `python_project.ipynb`, a Jupyter Notebook that combines both code and explanatory markdown.  
