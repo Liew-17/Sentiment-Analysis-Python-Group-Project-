@@ -6,7 +6,6 @@ This project performs **sentiment analysis** on Twitter posts containing the has
 The main goal is to analyze public opinion toward Covid-19 vaccination by processing tweets, cleaning the text, and applying sentiment classification.  
 The project also generates visualizations to highlight sentiment distribution and trends over time.  
 
----
 
 ## 2. Project Structure  
 
