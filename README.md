@@ -24,7 +24,7 @@ The repository is organized into three main folders:
   Stores generated results, including:  
   - `processed_data.csv`: The cleaned and processed dataset with sentiment labels.  
   - Visualizations:  
-    - **Pie chart** showing the distribution of sentiment categories (positive, negative, neutral).  
+    - **Pie chart** showing the distribution of sentiment categories (rated on a scale from **1 to 5**, where **1 = very negative** and **5 = very positive**).
     - **Line chart** illustrating sentiment trends over time.  
 
 ---
